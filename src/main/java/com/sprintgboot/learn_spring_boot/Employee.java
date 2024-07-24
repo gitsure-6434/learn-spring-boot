@@ -3,12 +3,12 @@ package com.sprintgboot.learn_spring_boot;
 public class Employee {
 
     private int empId;
-    private String empName;
+    private String empNameOne;
     private String owner;
 
-    public Employee(int empId, String empName, String owner) {
+    public Employee(int empId, String empNameOne, String owner) {
         this.empId = empId;
-        this.empName = empName;
+        this.empNameOne = empNameOne;
         this.owner = owner;
     }
 
@@ -20,12 +20,12 @@ public class Employee {
         this.empId = empId;
     }
 
-    public String getEmpName() {
-        return empName;
+    public String getEmpNameOne() {
+        return empNameOne;
     }
 
-    public void setEmpName(String empName) {
-        this.empName = empName;
+    public void setEmpNameOne(String empName) {
+        this.empNameOne = empName;
     }
 
     public String getOwner() {
@@ -40,7 +40,7 @@ public class Employee {
     public String toString() {
         return "Employee{" +
                 "empId=" + empId +
-                ", empName='" + empName + '\'' +
+                ", empNameOne='" + empNameOne + '\'' +
                 ", owner='" + owner + '\'' +
                 '}';
     }
